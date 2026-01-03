@@ -1,0 +1,9 @@
+{
+  "model_name": "breast_cancer_logreg",
+  "threshold_benign": 0.6206578599836922,
+  "labels": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "features_count": 30
+}
