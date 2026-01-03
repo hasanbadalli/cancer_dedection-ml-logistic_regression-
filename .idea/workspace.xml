@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990b9811-9de7-418b-a8c1-5c6f7223da0c" name="Changes" comment="starting">
+    <list default="true" id="990b9811-9de7-418b-a8c1-5c6f7223da0c" name="Changes" comment="feature scaled, model trained , accuracy calculated, conf. matrix printed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cfinder.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/cfinder.ipynb" afterDir="false" />
     </list>
@@ -20,34 +20,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "hasanbadalli"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hasanbadalli&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hasanbadalli/cancer_dedection-ml-logistic_regression-.git",
-    "accountId": "478092db-a4e2-4000-bcd7-6bf38556b655"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hasanbadalli/cancer_dedection-ml-logistic_regression-.git&quot;,
+    &quot;accountId&quot;: &quot;478092db-a4e2-4000-bcd7-6bf38556b655&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="37hiMRFRA0REn9m29wKXtPjh0CJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,11 +71,20 @@
       <option name="project" value="LOCAL" />
       <updated>1767363106669</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature scaled, model trained , accuracy calculated, conf. matrix printed">
+      <option name="closed" value="true" />
+      <created>1767368442223</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767368442223</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="starting" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting" />
+    <MESSAGE value="feature scaled, model trained , accuracy calculated, conf. matrix printed" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature scaled, model trained , accuracy calculated, conf. matrix printed" />
   </component>
 </project>
