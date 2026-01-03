@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990b9811-9de7-418b-a8c1-5c6f7223da0c" name="Changes" comment="feature scaled, model trained , accuracy calculated, conf. matrix printed">
+    <list default="true" id="990b9811-9de7-418b-a8c1-5c6f7223da0c" name="Changes" comment="better threadhold, better accuracy, analayzing model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cfinder.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/cfinder.ipynb" afterDir="false" />
     </list>
@@ -79,12 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1767368442223</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="better threadhold, better accuracy, analayzing model">
+      <option name="closed" value="true" />
+      <created>1767426353830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767426353830</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="starting" />
     <MESSAGE value="feature scaled, model trained , accuracy calculated, conf. matrix printed" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature scaled, model trained , accuracy calculated, conf. matrix printed" />
+    <MESSAGE value="better threadhold, better accuracy, analayzing model" />
+    <option name="LAST_COMMIT_MESSAGE" value="better threadhold, better accuracy, analayzing model" />
   </component>
 </project>
