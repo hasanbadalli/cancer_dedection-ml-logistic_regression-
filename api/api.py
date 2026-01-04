@@ -1,8 +1,10 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
-import joblib
-import json
+import joblib, json
 from pathlib import Path
+from api.schemas import PatientInput
+from api.features import FEATURE_ORDER
+from fastapi.middleware.cors import CORSMiddleware
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -15,21 +17,30 @@ LABELS = metadata["labels"]
 
 app = FastAPI()
 
-class PatientInput(BaseModel):
-    features: list[float]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
 
 @app.post("/predict")
 async def predict(patient: PatientInput):
-    proba = model.predict_proba([patient.features])[0]
+
+    feature_dict = patient.model_dump()
+    features = [feature_dict[name] for name in FEATURE_ORDER]
+
+    proba = model.predict_proba([features])[0]
 
     p_malignant = float(proba[0])
     p_benign = float(proba[1])
 
-    prediction = 1 if p_benign > THRESHOLD else 0
+    prediction = 1 if p_benign >= THRESHOLD else 0
 
     return {
         "prediction": LABELS[str(prediction)],
@@ -39,4 +50,3 @@ async def predict(patient: PatientInput):
             "benign": p_benign
         }
     }
-
